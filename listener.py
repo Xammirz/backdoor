@@ -3,8 +3,6 @@ import json
 import socket
 import base64
 class Listener:
-
-
     def __init__(self, ip, port):
         
         listener = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
